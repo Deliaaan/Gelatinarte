@@ -35,7 +35,7 @@ header {
 header nav {
     width: 100%;
     height: 10%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -121,13 +121,13 @@ header nav .right_menu ul li a:hover::before {
 header .left_menu a{
     width: 20px;
     height: 90%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 header section {
     width: 97%;
     height: 90%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 header section .content {
@@ -195,7 +195,7 @@ header section .content .price_order p {
 header section .cards {
     width: 90%;
     height: 140px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     position: relative;
     top: 20%;
     padding-left: 30px;
@@ -215,7 +215,7 @@ header section .cards .card {
     position: relative;
     min-width: 125px;
     min-height: 125px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin-right: 13px;
     background: #282828;
     border-radius: 50px 10px 10px 10px;
@@ -263,7 +263,7 @@ header section .cards .card p {
 header section .social {
     position: relative;
     width: 100%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     top: 20%;
     display: flex;
     align-items: center;
@@ -285,5 +285,97 @@ header section .social .btns .bi:hover{
     color: rgb(0, 0, 0, .5);
 }
 
+@media screen and (max-width: 1260px) {
+    header {
+        width: 83%;    
+    }
+}
+
+@media screen and (max-width: 885px) {
+    header {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    header .logo {
+        left: 13%;
+    }
+
+    header section .content {
+        left: 340px;
+    }
+
+    header section {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    header {
+        width: 100%;
+        height: 100%;
+    }
+    header nav .right_menu ul li{
+        padding: 3px 6px;
+    };
+}
+
+@media screen and (max-width: 685px) {
+    header nav .right_menu ul {
+        position: absolute;
+        top: 20%;
+        flex-direction: column;
+        width: 15px;
+        height: 17px;
+    }
+    header nav .right_menu ul li{
+        padding: 30px 10px;
+        transform: rotate(90deg);
+    }
+    header section .content {
+        left: 24%;
+        top: 38%;
+    }
+    header .logo {
+        left: 30%;
+    }
+    header section .cards {
+        top: 43%;
+    }
+    header section .social {
+        top: 45%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header .logo {
+        left: 20%;
+    }
+
+    header section .content {
+        left: 11%;
+        top: 38%;
+    }
+}
+
+@media screen and (max-width: 418px) {
+    header .logo {
+        width: 200px;
+    }
+    header .logo img{
+        width: 245px;
+        margin: 75px 0px 0px -30px;
+    }
+    header section .content p {
+        font-size: 9px;
+        width: 220px;
+    }
+    header section .content h1 {
+        font-size: 32px;
+    }
+
+
+}
 
 
