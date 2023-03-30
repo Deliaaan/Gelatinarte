@@ -77,6 +77,7 @@ header .logo #poster {
     width: 300px;
     margin: 20px 0px 0px -30px;
     filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.918));
+    border-radius: 50%;
 }
 
 header nav .menu {
@@ -171,10 +172,9 @@ header section .content h1 {
 }
 
 header section .content p {
-    font-size: 10px;
+    font-size: 17px;
     font-weight: 600;
     width: 290px;
-    word-break: break-all;
 }
 
 header section .content .price {
@@ -375,16 +375,11 @@ header section .social .btns .bi:hover{
 
 @media screen and (max-width: 418px) {
     header .logo {
-        width: 200px;
+        width: 250px;
     }
-
-    header .logo .logotipo {
-        justify-content: start;
-    }
-
-    header .logo img{
+    header .logo #poster{
         width: 245px;
-        margin: 75px 0px 0px -30px;
+        margin: 75px 0px 0px -8px;
     }
     header section .content p {
         font-size: 9px;
