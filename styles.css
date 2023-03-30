@@ -23,8 +23,7 @@ header {
     position: relative;
     width: 58%;
     height: 75%;
-    background-image: linear-gradient(to right, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    animation: cambio-color 10s ease-in-out infinite;
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E44AD);
     box-shadow: 0px 0px 50px -1px rgba(0, 0, 0, 0.836);
     padding: 0px 30px;
     display: flex;
@@ -53,19 +52,31 @@ header .logo {
     transition: 1s linear;
 }
 
-header .logo h1 {
+header  .logo .logotipo {
+    position: relative;
+    padding-top: 5%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .logo .logotipo h1 {
     color: #fff;
-    text-align: center;
+    text-align: justify;
     margin-top: 5px;
     font-size: 25px;
     font-weight: 600;
 }
 
-header .logo img {
+header .logo .logotipo img {
+    width: 40px;
+    height: 40px;
+}
+
+header .logo #poster {
     width: 300px;
     margin: 20px 0px 0px -30px;
     filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.918));
-
 }
 
 header nav .menu {
@@ -279,7 +290,7 @@ header section .social .btns{
 }
 
 header section .social .btns .bi{
-    font-size: 13px;
+    font-size: 25px;
     cursor: pointer;
     transition: .3s linear;
 }
@@ -366,6 +377,11 @@ header section .social .btns .bi:hover{
     header .logo {
         width: 200px;
     }
+
+    header .logo .logotipo {
+        justify-content: start;
+    }
+
     header .logo img{
         width: 245px;
         margin: 75px 0px 0px -30px;
@@ -379,42 +395,3 @@ header section .social .btns .bi:hover{
     }
 }
 
-@keyframes Color{
-    0%{
-        color: #505488;
-    }
-
-    50% {
-        color: #3b0f70;
-    }
-
-    100% {
-        color: #b1054d;
-    }
-}
-
-@-webkit-keyframes Color{
-    0%{
-        color: #505488;
-    }
-
-    50% {
-        color: #3b0f70;
-    }
-
-    100% {
-        color: #b1054d;
-    }
-}
-
-@keyframes cambio-color {
-    0% {
-        background-image: linear-gradient(to right, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    }
-    50% {
-        background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E44AD);
-    }
-    100% {
-        background-image: linear-gradient(to right, #23d5ab, #23a6d5, #e73c7e, #ee7752);
-    }
-}
