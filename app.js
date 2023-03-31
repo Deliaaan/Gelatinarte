@@ -11,10 +11,7 @@ right.addEventListener('click', ()=> {
 })
 
 const descripciones = [
-    "Hola como estas", 
-    "sabe a coco",
-    "sabe muy rica jajaja",
-    "esta es de nuestras favoritas"
+
 ]
 
 let poster = document.getElementById('poster');
@@ -27,8 +24,12 @@ Array.from(document.getElementsByClassName('card')).forEach((ele, i) => {
         poster.src = ele.getElementsByTagName('img')[0].src;
         title.src = ele.getElementsByTagName('h5')[0].src;
         price.src = ele.getElementsByTagName('h4')[0].src;
-        info.src = ele.getElementsByTagName('h1')[0].src;
+        info.src = ele.getElementsByTagName('p')[0].src;
     })
 })
 
 
+let prueba = document.getElementById('prueba1');
+prueba.addEventListener('click', function (){
+    prueba.textContent = 'hola';
+});
