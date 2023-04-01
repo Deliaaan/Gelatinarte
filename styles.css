@@ -57,11 +57,11 @@ header  .logo .logotipo {
     padding-top: 5%;
     flex-direction: row;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 header .logo .logotipo h1 {
-    color: #fff;
+    color: #e262bc;
     text-align: justify;
     margin-top: 5px;
     font-size: 25px;
@@ -89,7 +89,6 @@ header .logo #poster {
 header nav .menu {
     font-size: 25px;
     color: #ffffff;
-
 }
 
 header nav .right_menu {
@@ -174,7 +173,7 @@ header section .content {
 header section .content h1 {
     font-size: 40px;
     transition: 1s linear;
-    color: #fff;
+    color: #97cada;
 }
 
 header section .content p {
@@ -204,7 +203,7 @@ header section .content .price_order h2 {
 
 header section .content .price_order p {
     font-size: 20px;
-    width: 180px;
+    width: 220px;
     padding: 4px 20px;
     border-radius: 5px;
     background: #121213;
@@ -256,20 +255,19 @@ header section .cards .card .dis {
     backdrop-filter: blur( 8.5px );
     -webkit-backdrop-filter: blur( 8.5px );
     border-radius: 50px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 header section .cards .card h4 {
     position: absolute;
     top: 20px;
     right: 20px;
-    color: #fff;
+    color: #e663c9;
     font-size: 13px;
     font-weight: 600;
 }
 
 header section .cards .card h5 {
-    color: #fff;
+    color: #8bbbdb;
     font-size: 12px;
     font-family: 500;
     padding: 0px 10px;
