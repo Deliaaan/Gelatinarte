@@ -41,4 +41,9 @@ Array.from(document.getElementsByClassName('card')).forEach((ele, i) => {
     })
 })
 
-//PONER UN SPAN A PRECIO POR UNIDAD PARA RESALTAR EL TEXTO.
+// PONER UN SPAN A PRECIO POR UNIDAD PARA RESALTAR EL TEXTO.
+// Hacer paginas paralelas 
+// Poner telefono de contacto 
+// Quitar menu desplegable
+// Checar host
+// Consultar con mi mamá precios, información y personas
