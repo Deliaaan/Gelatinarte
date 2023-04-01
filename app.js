@@ -11,7 +11,7 @@ right.addEventListener('click', ()=> {
 })
 
 const descripciones = [
-    "",
+    "Gelatina festiva navideña, adornada con fresas y chispas de oro dulce!",
     'Un hermoso paisaje nevado en 3D, sabor mora azul. Pedir con minimo 4 dias de anticipación ❄️',
     'Por fuera color negro, por dentro colores neon de varios sabores! 🔦',
     'Una de nuestras gelatinas mas famosas, mitad mosaico mitad flores de gelatina 🌸',
@@ -23,8 +23,8 @@ const descripciones = [
     "La favorita de los niños, pero no te dejes engañar, el relleno es una sorpresa arcoiris 🌈🐰",
     "Sabor bonbon por dentro, gomitas mora azul y fresa por fuera 😋",
     "¿Tienes una tematica?, podemos hacerla! personalizamos para que todo convine en tu fiesta tematica 🐲",
-    "complemento para tus pastel con gelatinas de helado, son muy esponjosas!🍧 \n Se vende por unidad",
-    "Para quien busca un sabor mas acido y picosito 🌶️🥭 \n Se vente por unidad"
+    "complemento para tus pastel con gelatinas de helado, son muy esponjosas!🍧 \n• Se vende por unidad",
+    "Para quien busca un sabor mas acido y picosito 🌶️🥭 \n• Se vente por unidad"
 ];
 
 let poster = document.getElementById('poster');
@@ -41,9 +41,6 @@ Array.from(document.getElementsByClassName('card')).forEach((ele, i) => {
     })
 })
 
-// PONER UN SPAN A PRECIO POR UNIDAD PARA RESALTAR EL TEXTO.
-// Hacer paginas paralelas 
-// Poner telefono de contacto 
-// Quitar menu desplegable
+// Hacer paginas paralelas
 // Checar host
 // Consultar con mi mamá precios, información y personas
