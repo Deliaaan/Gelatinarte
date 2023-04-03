@@ -33,8 +33,10 @@ let price = document.getElementById('price_cont');
 let info = document.getElementById('description');
 
 Array.from(document.getElementsByClassName('card')).forEach((ele, i) => {
+    console.log(ele)
     ele.addEventListener('click', () => {
-        poster.src = ele.getElementsByTagName('img')[0].src;
+        // poster.src = ele.getElementsByTagName('img')[0].src;
+        poster.srcset = ele.getElementsByTagName('source')[0].srcset
         title.innerText = ele.getElementsByTagName('h5')[0].innerText;
         price.innerText = ele.getElementsByTagName('h4')[0].innerText;
         info.innerText = descripciones[i];
